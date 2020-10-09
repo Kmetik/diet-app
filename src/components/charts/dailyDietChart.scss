@@ -1,0 +1,19 @@
+.daily-diet-chart--container {
+    min-height: 320px;
+    line, path{
+        animation-name: strokeWidth;
+        animation-delay: .2s;
+        animation-duration: 1.2s;
+    }
+}
+
+@keyframes strokeWidth {
+    from {
+        stroke-dasharray: 550;
+        stroke-dashoffset: 550;
+    }
+    to {
+        stroke-dasharray: 550;
+        stroke-dashoffset: 0;
+    }
+}

@@ -1,0 +1,57 @@
+@import '../../theme';
+
+.nav-profile--container {
+    .profile-actions-btn {
+        span{
+            font-weight: 200;
+            padding-right: 0.75rem;
+        }
+    }
+}
+
+.nav-profile--actions {
+    position: absolute;
+    top:100%;
+    background: #ffffff;
+    list-style: none;
+    font-weight: 200;
+    font-size: 1rem;
+    z-index: 1110;
+    border-radius: 10px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    a{
+        color: $gray;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        transition: color 200ms;
+        &:first-child {
+            margin-right: .5rem;
+        }
+        &:hover{
+            color: #000;
+        }
+    }
+    li{
+        padding: 0.5rem;
+    }
+    
+}
+
+.item-enter {
+    line-height: 0%;
+}
+.item-enter-active {
+    line-height: 110%;
+    transition: line-height 300ms ease-out;
+}
+.item-exit {
+    line-height: 110%;
+}
+.item-exit-active {
+    line-height: 0%;
+    transition: line-height 300ms ease-out;
+}

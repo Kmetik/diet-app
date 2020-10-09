@@ -1,0 +1,44 @@
+@import '../../theme';
+
+.calendar--wrapper {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,1fr);
+    font-weight: 200;
+    span{
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        cursor: pointer;
+
+    }
+    .calendar-date {
+        margin: 0.1rem;
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        padding: .5rem;
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        &:hover{
+            border: 1px solid $blue;
+        }
+    }
+    .calendar-date.active{
+        background-color: $blue;
+        color: white;
+    }
+}
+
+.date-controls--container {
+    .date-controls {
+        font-size: 1.25rem;    
+    }
+    .control-unit{
+        margin: 0 .1rem;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}

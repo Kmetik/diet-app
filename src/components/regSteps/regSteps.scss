@@ -1,0 +1,29 @@
+input[type=radio].gender { 
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    &:checked + img{
+        border: 2px solid black;
+    }
+    &:focus + img {
+        border: 2px solid black;
+    }
+}
+  
+input[type=radio].gender + img {
+  cursor: pointer;
+}
+
+.reg-container input[type=number]{
+    text-align: center;
+    background: none;
+    min-width: 80px;
+    width: 30%;
+    max-width: 50%;
+    border: none;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 2.5rem;
+    
+}

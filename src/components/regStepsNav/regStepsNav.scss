@@ -1,0 +1,67 @@
+@import '../../theme';
+
+.reg-nav {
+    position: absolute;
+    right: 5%;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: rgba($color: #fff, $alpha: .7);
+    box-shadow: 6px 10px 12px rgba(0,0,0, .1);  
+    transform: rotateX(10deg) rotateY(20deg);
+    transition: all .3s ease;
+    box-sizing: content-box;
+    .link{
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 200;
+        margin: 0.2rem;
+        transition: all .3s;
+        color: rgba($color: #fff, $alpha: .5);
+        &:hover{
+            font-size: 2.05rem;
+            color: #fff;
+            
+        }
+    }
+    &:hover{
+        transform: rotateX(10deg) rotateY(0deg);
+        box-shadow: 0px 4px 12px rgba(0,0,0, .1);  
+
+    }
+
+    .link.active{
+        font-size: 2.05rem;
+        color: #fff;
+    }
+    
+}
+
+@include media-breakpoint-down(md) {
+    .reg-nav {
+        margin: 0 0.5rem;
+        position: fixed;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        top: 1rem;
+        right: 0;
+        transform: none;
+        .link{
+            font-size: 1.6rem;
+            margin: 0 1rem;
+            &:hover{
+                font-size: 1.65rem;
+                color: #fff;
+                
+            }
+        }
+        .link.active{
+            font-size: 1.65rem;
+            color: #fff;
+        }
+    }
+}

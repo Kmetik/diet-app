@@ -1,0 +1,561 @@
+[{
+    "id": 1,
+    "name": "Айсинг",
+    "protein": "2.3",
+    "carbohydrate": "78.8",
+    "fats": "0.0",
+    "energy": "305"
+}, {
+    "id": 2,
+    "name": "Батончик Corny Big злаковый с бананом и шоколадом",
+    "protein": "6.1",
+    "carbohydrate": "65.6",
+    "fats": "15.2",
+    "energy": "424"
+}, {
+    "id": 3,
+    "name": "Батончик Corny Big злаковый с клюквой",
+    "protein": "5.9",
+    "carbohydrate": "71.4",
+    "fats": "7.4",
+    "energy": "377"
+}, {
+    "id": 4,
+    "name": "Батончик Corny Big злаковый с лесными орехами",
+    "protein": "6.4",
+    "carbohydrate": "63.2",
+    "fats": "15.6",
+    "energy": "419"
+}, {
+    "id": 5,
+    "name": "Батончик Corny Big злаковый с шоколадом",
+    "protein": "7.0",
+    "carbohydrate": "62.9",
+    "fats": "17.0",
+    "energy": "433"
+}, {
+    "id": 6,
+    "name": "Батончик Nestle Fitness с цельными злаками и клубникой",
+    "protein": "5.8",
+    "carbohydrate": "68.9",
+    "fats": "6.7",
+    "energy": "369"
+}, {
+    "id": 7,
+    "name": "Батончик мюсли DiYes Чернослив в шоколаде",
+    "protein": "4.0",
+    "carbohydrate": "70.0",
+    "fats": "11.0",
+    "energy": "390"
+}, {
+    "id": 8,
+    "name": "Батончик мюсли Ego с бананом в шоколаде",
+    "protein": "5.0",
+    "carbohydrate": "68.0",
+    "fats": "13.5",
+    "energy": "416"
+}, {
+    "id": 9,
+    "name": "Батончик мюсли Ego с вишней в йогурте",
+    "protein": "6.0",
+    "carbohydrate": "56.0",
+    "fats": "14.0",
+    "energy": "416"
+}, {
+    "id": 10,
+    "name": "Батончик мюсли Ego с клубникой в йогурте",
+    "protein": "4.0",
+    "carbohydrate": "67.5",
+    "fats": "14.5",
+    "energy": "418"
+}, {
+    "id": 11,
+    "name": "Батончик мюсли Ego с лесными ягодами в йогурте",
+    "protein": "4.0",
+    "carbohydrate": "69.5",
+    "fats": "13.5",
+    "energy": "418"
+}, {
+    "id": 12,
+    "name": "Батончик мюсли Ego с черникой в йогурте",
+    "protein": "5.5",
+    "carbohydrate": "67.5",
+    "fats": "14.0",
+    "energy": "420"
+}, {
+    "id": 13,
+    "name": "Батончик мюсли Tekmar клубника в йогурте",
+    "protein": "4.5",
+    "carbohydrate": "70.7",
+    "fats": "16.8",
+    "energy": "452"
+}, {
+    "id": 14,
+    "name": "Батончик Пульсар с миндалем в шоколадной глазури",
+    "protein": "6.3",
+    "carbohydrate": "58.8",
+    "fats": "13.9",
+    "energy": "385"
+}, {
+    "id": 15,
+    "name": "Батончик Сладкий мир фруктовый хлеб банановый",
+    "protein": "6.8",
+    "carbohydrate": "59.9",
+    "fats": "9.6",
+    "energy": "352"
+}, {
+    "id": 16,
+    "name": "Батончик фруктовый Joyfield с абрикосом в шоколаде",
+    "protein": "9.8",
+    "carbohydrate": "72.3",
+    "fats": "0.6",
+    "energy": "352"
+}, {
+    "id": 17,
+    "name": "Батончик фруктовый Joyfield с абрикосом и яблоком",
+    "protein": "3.7",
+    "carbohydrate": "74.8",
+    "fats": "0.3",
+    "energy": "282"
+}, {
+    "id": 18,
+    "name": "Батончик фруктовый Joyfield с лимонником и папайей",
+    "protein": "4.1",
+    "carbohydrate": "77.0",
+    "fats": "0.3",
+    "energy": "302"
+}, {
+    "id": 19,
+    "name": "Батончик фруктовый Joyfield с полевой клубникой",
+    "protein": "4.5",
+    "carbohydrate": "75.4",
+    "fats": "0.4",
+    "energy": "286"
+}, {
+    "id": 20,
+    "name": "Батончик фруктовый Joyfield с черникой",
+    "protein": "4.5",
+    "carbohydrate": "73.3",
+    "fats": "0.4",
+    "energy": "273"
+}, {
+    "id": 21,
+    "name": "Батончик фруктовый Joyfield с черносливом в шоколаде",
+    "protein": "7.8",
+    "carbohydrate": "67.7",
+    "fats": "1.0",
+    "energy": "340"
+}, {
+    "id": 22,
+    "name": "Батончик фруктовый Joyfield с черносливом и ананасом",
+    "protein": "3.4",
+    "carbohydrate": "75.1",
+    "fats": "0.5",
+    "energy": "314"
+}, {
+    "id": 23,
+    "name": "Батончик фруктовый Joyfield с черносливом и яблоком",
+    "protein": "2.1",
+    "carbohydrate": "70.2",
+    "fats": "0.5",
+    "energy": "280"
+}, {
+    "id": 24,
+    "name": "Баурсак",
+    "protein": "6.8",
+    "carbohydrate": "45.8",
+    "fats": "2.6",
+    "energy": "234"
+}, {
+    "id": 25,
+    "name": "Бисквитник Сдобная особа медовый с вареной сгущенкой",
+    "protein": "5.3",
+    "carbohydrate": "46.1",
+    "fats": "19.6",
+    "energy": "378"
+}, {
+    "id": 26,
+    "name": "Бисквитник Сдобная особа с начинкой маракуйя",
+    "protein": "3.9",
+    "carbohydrate": "51.5",
+    "fats": "17.2",
+    "energy": "375"
+}, {
+    "id": 27,
+    "name": "Бисквитник Сдобная особа шоколадный с шоколадной начинкой",
+    "protein": "4.3",
+    "carbohydrate": "48.5",
+    "fats": "18.3",
+    "energy": "378"
+}, {
+    "id": 28,
+    "name": "Варенье из абрикосов",
+    "protein": "0.0",
+    "carbohydrate": "62.0",
+    "fats": "0.0",
+    "energy": "236"
+}, {
+    "id": 29,
+    "name": "Варенье из айвы",
+    "protein": "0.4",
+    "carbohydrate": "70.6",
+    "fats": "0.2",
+    "energy": "273"
+}, {
+    "id": 30,
+    "name": "Варенье из апельсинов",
+    "protein": "2.6",
+    "carbohydrate": "70.0",
+    "fats": "0.5",
+    "energy": "245"
+}, {
+    "id": 31,
+    "name": "Варенье из брусники",
+    "protein": "0.2",
+    "carbohydrate": "64.6",
+    "fats": "0.1",
+    "energy": "244"
+}, {
+    "id": 32,
+    "name": "Варенье из вишни",
+    "protein": "0.0",
+    "carbohydrate": "64.0",
+    "fats": "0.0",
+    "energy": "256"
+}, {
+    "id": 33,
+    "name": "Варенье из груши",
+    "protein": "0.3",
+    "carbohydrate": "70.8",
+    "fats": "0.2",
+    "energy": "273"
+}, {
+    "id": 34,
+    "name": "Варенье из дыни",
+    "protein": "0.3",
+    "carbohydrate": "44.7",
+    "fats": "0.1",
+    "energy": "197"
+}, {
+    "id": 35,
+    "name": "Варенье из земляники",
+    "protein": "0.3",
+    "carbohydrate": "58.0",
+    "fats": "0.1",
+    "energy": "219"
+}, {
+    "id": 36,
+    "name": "Варенье из инжира",
+    "protein": "0.0",
+    "carbohydrate": "62.0",
+    "fats": "0.0",
+    "energy": "236"
+}, {
+    "id": 37,
+    "name": "Варенье из кабачков",
+    "protein": "0.3",
+    "carbohydrate": "48.9",
+    "fats": "0.1",
+    "energy": "196"
+}, {
+    "id": 38,
+    "name": "Варенье из клубники",
+    "protein": "0.3",
+    "carbohydrate": "74.0",
+    "fats": "0.1",
+    "energy": "285"
+}, {
+    "id": 39,
+    "name": "Варенье из лимонов",
+    "protein": "0.0",
+    "carbohydrate": "60.0",
+    "fats": "0.0",
+    "energy": "240"
+}, {
+    "id": 40,
+    "name": "Варенье из малины",
+    "protein": "0.6",
+    "carbohydrate": "70.4",
+    "fats": "0.2",
+    "energy": "273"
+}, {
+    "id": 41,
+    "name": "Варенье из мандаринов",
+    "protein": "0.7",
+    "carbohydrate": "75.9",
+    "fats": "0.2",
+    "energy": "294"
+}, {
+    "id": 42,
+    "name": "Варенье из облепихи",
+    "protein": "0.7",
+    "carbohydrate": "34.4",
+    "fats": "3.7",
+    "energy": "165"
+}, {
+    "id": 43,
+    "name": "Варенье из одуванчиков",
+    "protein": "0.6",
+    "carbohydrate": "48.0",
+    "fats": "0.1",
+    "energy": "191"
+}, {
+    "id": 44,
+    "name": "Варенье из персиков",
+    "protein": "0.5",
+    "carbohydrate": "66.8",
+    "fats": "0.0",
+    "energy": "258"
+}, {
+    "id": 45,
+    "name": "Варенье из ревеня",
+    "protein": "0.5",
+    "carbohydrate": "82.4",
+    "fats": "0.5",
+    "energy": "314"
+}, {
+    "id": 46,
+    "name": "Варенье из сливы",
+    "protein": "0.4",
+    "carbohydrate": "74.2",
+    "fats": "0.3",
+    "energy": "288"
+}, {
+    "id": 47,
+    "name": "Варенье из тёрна",
+    "protein": "0.0",
+    "carbohydrate": "62.0",
+    "fats": "0.0",
+    "energy": "248"
+}, {
+    "id": 48,
+    "name": "Варенье из черники",
+    "protein": "0.4",
+    "carbohydrate": "56.1",
+    "fats": "0.2",
+    "energy": "214"
+}, {
+    "id": 49,
+    "name": "Варенье из чёрной смородины",
+    "protein": "0.6",
+    "carbohydrate": "72.9",
+    "fats": "0.1",
+    "energy": "284"
+}, {
+    "id": 50,
+    "name": "Варенье из черноплодной рябины",
+    "protein": "0.4",
+    "carbohydrate": "74.8",
+    "fats": "0.0",
+    "energy": "387"
+}, {
+    "id": 51,
+    "name": "Варенье из яблок",
+    "protein": "0.4",
+    "carbohydrate": "68.2",
+    "fats": "0.3",
+    "energy": "265"
+}, {
+    "id": 52,
+    "name": "Вафли венские с карамелью",
+    "protein": "8.1",
+    "carbohydrate": "53.3",
+    "fats": "19.4",
+    "energy": "424"
+}, {
+    "id": 53,
+    "name": "Вафли венские со взбитыми сливками",
+    "protein": "4.8",
+    "carbohydrate": "50.5",
+    "fats": "23.3",
+    "energy": "489"
+}, {
+    "id": 54,
+    "name": "Вафли Леди Джем со вкусом вишни",
+    "protein": "3.0",
+    "carbohydrate": "82.0",
+    "fats": "1.0",
+    "energy": "330"
+}, {
+    "id": 55,
+    "name": "Вафли с жирной начинкой",
+    "protein": "3.4",
+    "carbohydrate": "64.7",
+    "fats": "30.2",
+    "energy": "539"
+}, {
+    "id": 56,
+    "name": "Вафли с фруктовой начинкой",
+    "protein": "3.2",
+    "carbohydrate": "80.9",
+    "fats": "2.8",
+    "energy": "350"
+}, {
+    "id": 57,
+    "name": "Вафли Сдобная особа домашние с изюмом",
+    "protein": "7.9",
+    "carbohydrate": "55.8",
+    "fats": "21.7",
+    "energy": "452"
+}, {
+    "id": 58,
+    "name": "Вафли Сдобная особа домашние сахарные",
+    "protein": "8.2",
+    "carbohydrate": "54.4",
+    "fats": "23.1",
+    "energy": "459"
+}, {
+    "id": 59,
+    "name": "Вафли Сдобная особа мягкие с суфле классические",
+    "protein": "5.5",
+    "carbohydrate": "52.2",
+    "fats": "23.9",
+    "energy": "446"
+}, {
+    "id": 60,
+    "name": "Вафли Сдобная особа мягкие с суфле со вкусом пломбира",
+    "protein": "5.5",
+    "carbohydrate": "52.2",
+    "fats": "23.9",
+    "energy": "446"
+}, {
+    "id": 61,
+    "name": "Вафли Яшкино с карамельной начинкой",
+    "protein": "6.0",
+    "carbohydrate": "67.9",
+    "fats": "15.2",
+    "energy": "430"
+}, {
+    "id": 62,
+    "name": "Галеты Nordic из овса с брусникой",
+    "protein": "9.0",
+    "carbohydrate": "61.0",
+    "fats": "14.0",
+    "energy": "420"
+}, {
+    "id": 63,
+    "name": "Галеты Любятово классические",
+    "protein": "11.1",
+    "carbohydrate": "76.0",
+    "fats": "1.2",
+    "energy": "365"
+}, {
+    "id": 64,
+    "name": "Ганаш",
+    "protein": "4.9",
+    "carbohydrate": "52.5",
+    "fats": "34.5",
+    "energy": "542"
+}, {
+    "id": 65,
+    "name": "Ганаш белый",
+    "protein": "3.9",
+    "carbohydrate": "48.9",
+    "fats": "37.2",
+    "energy": "547"
+}, {
+    "id": 66,
+    "name": "Ганаш шоколадный",
+    "protein": "4.9",
+    "carbohydrate": "52.5",
+    "fats": "34.5",
+    "energy": "542"
+}, {
+    "id": 67,
+    "name": "Гематоген",
+    "protein": "6.0",
+    "carbohydrate": "75.7",
+    "fats": "3.0",
+    "energy": "354"
+}, {
+    "id": 68,
+    "name": "Гематоген Русский детский",
+    "protein": "3.5",
+    "carbohydrate": "75.6",
+    "fats": "2.9",
+    "energy": "343"
+}, {
+    "id": 69,
+    "name": "ГематогенКА",
+    "protein": "4.9",
+    "carbohydrate": "81.0",
+    "fats": "11.5",
+    "energy": "425"
+}, {
+    "id": 70,
+    "name": "Десерт Alpro Soya ванильный",
+    "protein": "3.0",
+    "carbohydrate": "12.7",
+    "fats": "1.8",
+    "energy": "80"
+}, {
+    "id": 71,
+    "name": "Десерт Konti Bonjour ванильный",
+    "protein": "4.0",
+    "carbohydrate": "63.6",
+    "fats": "20.1",
+    "energy": "443"
+}, {
+    "id": 72,
+    "name": "Джезерье из граната",
+    "protein": "2.0",
+    "carbohydrate": "87.0",
+    "fats": "2.9",
+    "energy": "381"
+}, {
+    "id": 73,
+    "name": "Джем Zero низкокалорийный Абрикос",
+    "protein": "0.6",
+    "carbohydrate": "9.9",
+    "fats": "0.1",
+    "energy": "43"
+}, {
+    "id": 74,
+    "name": "Джем Zero низкокалорийный Ежевика",
+    "protein": "1.0",
+    "carbohydrate": "4.8",
+    "fats": "0.0",
+    "energy": "25"
+}, {
+    "id": 75,
+    "name": "Джем Zero низкокалорийный Клубника",
+    "protein": "0.2",
+    "carbohydrate": "5.2",
+    "fats": "0.2",
+    "energy": "24"
+}, {
+    "id": 76,
+    "name": "Джем апельсиновый",
+    "protein": "0.8",
+    "carbohydrate": "63.0",
+    "fats": "0.4",
+    "energy": "268"
+}, {
+    "id": 77,
+    "name": "Джем банановый",
+    "protein": "0.1",
+    "carbohydrate": "59.2",
+    "fats": "0.0",
+    "energy": "215"
+}, {
+    "id": 78,
+    "name": "Джем брусничный",
+    "protein": "0.8",
+    "carbohydrate": "59.0",
+    "fats": "0.7",
+    "energy": "250"
+}, {
+    "id": 79,
+    "name": "Джем вишневый",
+    "protein": "0.0",
+    "carbohydrate": "56.5",
+    "fats": "0.0",
+    "energy": "226"
+}, {
+    "id": 80,
+    "name": "Джем голубичный",
+    "protein": "0.7",
+    "carbohydrate": "58.8",
+    "fats": "0.2",
+    "energy": "241"
+}]

@@ -1,0 +1,28 @@
+@import '../../../index.scss';
+
+img.inverted{
+    border: 2px solid transparent;
+    border-radius: $border-radius;
+    padding: 1rem;
+    position: relative;
+    min-width: 100%;
+    min-height:  80%;
+    box-shadow: 1px 1px 2px 2px rgba($color: #fff, $alpha: .5);
+}
+
+input[type=radio].selector { 
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    &:checked + img{
+        border: 2px solid #fff;
+    }
+    &:focus + img {
+        border: 2px solid #fff;
+    }
+}
+  
+input[type=radio].selector + img {
+  cursor: pointer;
+}

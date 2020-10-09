@@ -1,0 +1,10 @@
+.bnr-item{
+    display: flex;
+    flex-direction: column;
+    
+    span,p{
+        font-size: 0.9rem;
+        font-weight: 200;
+        text-align: right;
+    }
+}

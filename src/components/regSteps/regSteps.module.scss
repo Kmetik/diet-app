@@ -1,0 +1,73 @@
+@import '../../theme.scss';
+
+h1.reg-step,h3.reg-step{
+    font-size: 3rem;
+    color: white;
+}
+
+input.reg-step{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    border-bottom: 3px solid white;
+    transition: .3s ease-in;
+    &:focus {
+        border: none;
+        border-bottom: 2px solid white;
+        transform: scale(1.05);
+    }
+    &:active{
+        border: none;
+    }
+}
+
+
+input.error{
+    border-bottom: 4px solid $orange;
+}
+
+
+.scales-container {
+    min-height: 300px;
+    overflow: hidden;
+    z-index: 5;
+    padding: 0;
+    margin: 0;
+    z-index: 104;
+    &::after {
+        content:'';
+        position: absolute;
+        left: 48.5%;
+        bottom: 0%;
+        width: 3%;
+        height: 15%;
+        background-color: $red;
+        clip-path: polygon(0 100%,50% 0 ,100% 100%);
+        z-index: 105;
+    }
+}
+
+.scales-range {
+    position: absolute;
+    width: 400%;
+    left: -150%;
+    top: -10%;
+    overflow: hidden;
+    z-index: 2;
+    transition:cubic-bezier(0.23, 1, 0.320, 1) 1s;
+}
+
+
+@include media-breakpoint-down(md) {
+    h3.reg-step{
+        font-size: 2rem;
+    }
+    .scales-container {
+        min-height: 200px;
+    }
+}
+
+
+
+  

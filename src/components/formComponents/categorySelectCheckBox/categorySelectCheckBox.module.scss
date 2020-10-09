@@ -1,0 +1,25 @@
+@import 'src/scss/colors.scss';
+
+input[type="checkbox"].category-checkbox{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    &:checked + label{
+        background-color: $light;
+        border-radius: 5px;
+        box-sizing: border-box;
+        box-shadow: inset 1px 1px 1px rgba(0,0,0,.15);
+    }
+}
+
+.form-check-label{
+    word-wrap: break-word;
+
+    padding: .25rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

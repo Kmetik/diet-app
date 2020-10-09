@@ -1,0 +1,32 @@
+@import '../../scss/colors.scss';
+
+$stroke: 20;
+
+.sectorPart{
+    fill: none;
+}
+
+.circle{
+    opacity: .8;
+    stroke: #ecf0f1;
+}
+
+#protein{
+    @extend .sectorPart;
+    stroke: $blue;
+}
+
+#carbohydrate{
+    @extend .sectorPart;
+    stroke: $purple;
+}
+
+#energy{
+    @extend .sectorPart;
+    stroke: $yellow;
+}
+
+#fats{
+    @extend .sectorPart;
+    stroke: $emerald;
+}

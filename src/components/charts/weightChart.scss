@@ -1,0 +1,11 @@
+@import '../../theme';
+
+.weight-chart--container {
+    overflow: hidden;
+}
+
+@include media-breakpoint-only(lg) {
+    .weight-chart--container {
+        max-height: 300px;
+    }   
+}

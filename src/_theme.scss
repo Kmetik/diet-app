@@ -1,0 +1,20 @@
+
+@import './scss/_colors.scss';
+
+$theme-colors:(
+    "primary": $blue,
+    "danger": $red,
+    "secondary": $gray,
+    "warning": $orange,
+    "success": $green,
+    "info": $purple,
+    "dark": $dark,
+    "light":$light
+);
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import "../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+
+
+
+

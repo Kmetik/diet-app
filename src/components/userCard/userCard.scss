@@ -1,0 +1,45 @@
+@import '../../scss/colors';
+
+.user-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba($color: #fff, $alpha: .55);
+    border-radius: 20px;
+    transition: all .3s;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba($color: $dark, $alpha: .35);
+
+    .user-img{
+        margin: .75rem;
+        display: flex;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: rgba($color: $purple, $alpha: .8);
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        span{
+            font-size: 2.5rem;
+        }
+    }
+
+    &:hover{
+        background: rgba($color: #fff, $alpha: .75);
+    }
+    h3{
+        margin: 0;
+    }
+
+    button{
+        display: flex;
+        min-height: 100%;
+        height: 100%;
+        align-items: center;
+        background-color: rgba($color: #fff, $alpha: .75);
+        box-shadow: -2px 0px 3px 0px rgba($color: $blue, $alpha:.55);
+    }
+}

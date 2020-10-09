@@ -1,0 +1,70 @@
+@import '../../theme';
+
+.diary-stats--container {
+    font-weight: 200;
+    h4{
+        font-size: 3rem;
+        font-weight: 200;
+
+    }
+    .daily-stats-data {
+        span{
+            display: flex;
+            align-items: flex-end;
+            font-size: 2rem;
+        }
+    }
+    .daily-stats-label {
+        margin-bottom: 0;
+    }
+
+    .energy{
+        border-top: 6px solid $orange;
+    }
+    .fats{
+        border-top: 6px solid $green;
+    }
+    .carbohydrate{
+        border-top: 6px solid $purple;
+    }
+    .protein{
+        border-top: 6px solid $blue;
+    }
+}
+
+.add-link {
+    text-decoration: none;
+    color: $gray;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.big-pulsing-rounded-btn {
+    font-size:4rem;
+    color: #fff;
+    cursor: pointer;
+    line-height: 80%;
+    text-shadow: 0 0 0 rgba($color: $red,$alpha: 1);
+    transform: scale(1);
+    animation: pulse 2s infinite;
+    font-weight: 700;
+    -webkit-text-stroke: 1px rgba($color: $gray, $alpha: .65);
+}
+
+@keyframes pulse {
+    0% {
+        text-shadow: 0 0 0 rgba($color: $red,$alpha: .7);
+        
+	}
+
+	70% {
+        text-shadow: 0 0 20px rgba($color: $red,$alpha: 0);
+        
+	}
+
+	100% {
+        text-shadow: 0 0 0 rgba($color: $red,$alpha: 0);
+        
+	}
+}
