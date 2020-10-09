@@ -27,7 +27,11 @@ export const ProductFilterForm:React.FC = ()=>{
         
             <div className="row d-flex flex-column">
                 <CategorySelect options={params.categories}/>
-                <ExtraSortParams />
+                {/**
+                * // TODO: доделать фильтр товаров
+                * 
+                */}
+                {/* <ExtraSortParams /> */}
                 <div className="col-lg-12">
                     <div className="row justify-content-between align-content-center bg-white shadow-sm rounded">
                         <SearchBar />
